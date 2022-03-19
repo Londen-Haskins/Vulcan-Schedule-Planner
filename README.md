@@ -1,6 +1,9 @@
 # Vulcan-Schedule-Planner
 A web application that will allow Cal U students to make a schedule plan and lookup classes at Cal U
 
+# Live Example Link
+http://vulcanplanner.gearhostpreview.com/
+
 # Technical Documentation
 In the User Manual pdf is a detailed technical description of the web application, possible use cases, and community implications
 
