@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Vulcan Schedule Planner</title>
+	<link rel="stylesheet" href="siteStyle.css">
+	<style>
+
+	</style>
+</head>
+
+<?php
+	include "dataConn.php";
+?>
+
+<body>
+	<div class="heading">
+		<img src="calu_logo_2.png" class="logo">
+		
+	</div>
+	<ul>
+		<li style="padding: 14px 16px"><a href="http://vulcanplanner.gearhostpreview.com/">Home</a></li>
+		<li style="padding: 14px 16px"><a href="http://vulcanplanner.gearhostpreview.com/vulcanHome.php">Scheduler</a></li>
+		<li style="padding: 14px 16px"><a href="https://mer3942.wixsite.com/vulcanplanner">Project Page</a></li>
+		<li style="padding: 14px 16px"><a href="http://vulcanplanner.gearhostpreview.com/newSchedulePage.html">Class Search</a></li>
+	</ul>
+	<br>
+	<br>
+	<div class="opening">
+		<h1 style="text-align:center; font-size:30px;color:white"> 
+			Search for classes! 
+		</h1>
+	</div>
+	<br>
+	<br>
+	<div style="text-align: center;" id="newStudentDiv">
+		<p style="text-align:center; font-size:18px; color:white;"> 
+			Click the button below if you are a highschool student with no SAT/ACT exam scores or placement exam scores.
+		</p>
+		<form action="https://www.calu.edu/catalog/current/undergraduate/academic-departments/computer-information-engineering/bachelor-computer-science.aspx">
+			<p style="color:white; font-size:18px;">
+				For the Cal U suggested schedule to all starting CSC students click here:
+					<a href="https://www.calu.edu/catalog/current/undergraduate/academic-departments/computer-information-engineering/bachelor-computer-science.aspx" class="button regularButton">
+						<button class="button regularButton">
+							Cal U Suggested Schedule
+						</button>
+					</a>
+			</p>
+		</form>
+	</div>
+	<br>
+	<table>
+		<!-- Submission of form navigates User to keySearch page-->
+		<form action="newSchedulePageR.php">
+			<tr>
+				<td style="color:white">
+					Subject
+				</td>
+				<td style="color:white">
+					Course Number
+				</td>
+			</tr>
+			<tr>
+			<!-- User input in subject line gets sent to search page-->
+				<td>
+					<input type="text" name="userI">
+				</td>
+				<td>
+					<input type="text" name="userI_COURSE_NUM">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit"value="Search">
+				</td>
+			</tr>
+		</form>
+    </table>
+	<br>
+	
+</body>
+
+</html>

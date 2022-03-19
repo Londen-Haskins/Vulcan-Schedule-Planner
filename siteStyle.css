@@ -1,0 +1,135 @@
+/* Website's Background color */
+body {
+	background-color: #B90000; /*Dark Red*/
+}
+
+/* General Link text styling */
+a {
+	color: white; /* Text color */
+	transition-duration: 0.4s; /* Time for color change */
+}
+
+/* Additional Link text styling */
+a:link {
+	text-decoration: none; /* Removes underline for links */
+}
+
+/* Link hover transition */
+a:hover {
+	color: #AAAAAA; /* Dark gray */
+}
+
+/* Heading for the whole website */
+.heading {
+	height: 15%; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Styling for the logo in the header */
+.logo {
+	justify-content: flex-start;
+	width: 500px;
+	cursor: pointer;
+	background-color: white;
+	border-style: solid;
+}
+
+/* Styling for the Title of that page */
+.opening {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+
+/* One of a couple styling options for paragraphs and text on each pageb */
+.information {
+	background-color: #CFCFCF; /* Light gray */
+}
+
+/* Styling for the front page infromational text */
+.textblock {
+	vertical-align: top;
+	height: 200px;
+	padding: 12px;
+	background-color: #CCCCCC; /*Light gray*/
+}
+
+/* Div styling for new student informations section */
+#newStudentDiv {
+  width: 100%;
+  padding: 1px 0;
+  text-align: center;
+  background-color: #ABABAB;
+  opacity:0.8;
+  margin-top: 5px;
+}
+
+/* Div styling for warning section */
+#bannerDiv{
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	opacity: 1.0;
+	margin-top: 5px;
+	background-size: 100% 100%;
+}
+
+/* Styling the buttons for the schedule making page */
+.button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+/* Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Styling for nav bar links */
+li {
+  float: left;	/* slide block elements next to each other*/
+}
+
+/* Block elements */
+li n {
+  display: block;	
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change the link color to red on hover */
+li n:hover {
+  background-color: #C41212;
+}
+
+/* Button style used on update schedule (bottom of page) 
+	and save schedule button */
+.updateButton {background-color: green; font-size: 20px;} /* Green */
+
+/* Button style for clearing the schedule */
+.clearButton {background-color: #f44336; font-size: 20px;} /* Red */ 
+
+/* Button styled for alternate use */
+.regularButton {background-color: #555555;} /* Black */
